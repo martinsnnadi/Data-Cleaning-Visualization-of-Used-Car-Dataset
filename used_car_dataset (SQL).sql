@@ -2,7 +2,7 @@
 
 --Select and View all table  
 
-SELECT AskPrice FROM w3school.dbo.UsedCar
+SELECT AskPrice FROM w3school.dbo.UsedCar;
 
 
 
@@ -21,7 +21,7 @@ SET NewAskPrice = CAST(REPLACE(REPLACE(CAST(AskPrice AS VARCHAR(MAX)), '₹', ''
 
 --Select and View all table  
 
-SELECT * FROM w3school.dbo.UsedCar
+SELECT * FROM w3school.dbo.UsedCar;
 
 
 
